@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  display: flex;
+  padding: 25px;
+}
+body {
+  background: url(bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+}
+.top-right {
+  background-color: purple;
+  color: white;
+  text-align: center;
+  width: 84%;
+  padding: 15px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+.input-container {
+  background-color: white;
+  height: 280px;
+  margin: 15px;
+  padding-right: 30px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 365px;
+  border-radius: 10px;
+}
+.left {
+  flex-basis: 50%;
+  padding-top: 200px;
+  color: white;
+  text-align: center;
+  padding-left: 100px;
+}
+.right {
+  flex-basis: 40%;
+  padding: 100px;
+}
+@media screen and (max-width: 375px) {
+  body {
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .main {
+    max-width: 1440px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    margin: 0 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-content {
+    padding: 10px 0;
+    margin: 15px 0;
+    position: relative;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    display: flex;
+  }
+
+  .text {
+    font-family: "Poppins";
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: wrap;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+  }
+
+  .input-container {
+    width: 400px;
+    min-height: 300px;
+    position: relative;
+    border-radius: 5px;
+    margin: 40px auto 50px auto;
+    padding: 20px;
+  }
+
+  .form-btn {
+    font-weight: 400;
+    letter-spacing: 1;
+    display: block;
+    font-size: 12px;
+  }
+}
+#btn {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 385px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 2px;
+  margin-top: 10px;
+  border-radius: 10px;
+  outline: none;
+  padding-right: 0px;
+}
+p {
+  font-size: 16px;
+}
+span {
+  color: red;
+  font-weight: bold;
+}
+.last {
+  font-size: 14px;
+  margin: 10px;
+  text-align: center;
+}
+#first {
+  margin-top: 0%;
+}
